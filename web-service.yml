@@ -7,12 +7,6 @@ spring:
 server:
   port: 3334   # HTTP (Tomcat) port
 
-# Discovery Server Access
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
-
 management:
   info:
     env:
